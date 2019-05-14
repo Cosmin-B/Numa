@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1112735624476890}
+  m_IsPrefabParent: 1
+--- !u!1 &1112735624476890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4668136386093560}
+  - component: {fileID: 114542000133942852}
+  m_Layer: 0
+  m_Name: Achievement_Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4668136386093560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112735624476890}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 304.47644, y: 263.42572, z: -1.34375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114542000133942852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1112735624476890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e663bfd749fbf4b98fa6086f1cf269, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievementPrefab: {fileID: 1004733825427516, guid: 7debb4eda9209a3488037cc6efd4438c,
+    type: 2}
+  sprites:
+  - {fileID: 21300000, guid: a78d0cc16e61fda49affd0732b8cea78, type: 3}
+  - {fileID: 21300000, guid: 6d48b8ed9e5736b4481b87387f8585b0, type: 3}
+  - {fileID: 21300000, guid: 495e274214a56cf47acb29e64dd85920, type: 3}
+  - {fileID: 21300000, guid: eaf05ae1a6626134c915039c05c83d19, type: 3}
+  - {fileID: 21300000, guid: b8e76a1c52450c745a6b1dbada6becbe, type: 3}
+  - {fileID: 21300000, guid: dd5cf31b3319c3e4ca33d803108bec76, type: 3}
+  - {fileID: 21300000, guid: 3b55781c9ee4e6042895f3c803109ee3, type: 3}
+  onScreenAchievement: {fileID: 1304309503673314, guid: 90b27eda2dcaaf54eb0e70cbca2ff0f8,
+    type: 2}
+  unlockedAchievementSprite: {fileID: 21300000, guid: ba7df601f9f03d5469afa274967baec6,
+    type: 3}
+  pointsText: {fileID: 0}
